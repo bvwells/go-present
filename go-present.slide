@@ -1,0 +1,85 @@
+Go present
+
+* Introduction
+
+These slides illustrate how to use go present.
+
+* Slide sections
+
+Slide sections are shown the asterisks.
+
+- A single asterisk denotes the title of the slide or section.
+- Double asterisks denotes a subsection.
+- Triple asterisks denotes a subsubsection.
+
+* Bullet points
+
+Bullet points character is a hyphen (-).
+
+- bullet 1
+- bullet 2
+- bullet 4
+
+* Fonts
+
+Font marker characters are _ (italic), * (bold) and ` (program font).
+
+- _italic_ 
+- *bold*
+- `program`
+
+
+* Show code
+
+Code can be shown in a slide by adding the markup `.code`.
+
+	.code code.go
+
+.code example.go
+
+* Show code in go playground
+
+Code in slides can be executed in go playground adding the markup `.play`. 
+
+	.play code.go
+
+.play example.go
+
+* Show images
+
+Images can be added to slides by adding the markup `.image`.
+
+	.image gopher.jpg
+
+.image gopher.jpg
+
+* Show background images
+
+Background images can be added to slides by adding the markup `.background`.
+
+	.background background.PNG
+
+.background background.PNG
+
+* Show links
+
+Links can be added to slides by adding the markup `.link`. 
+
+	.link https://golang.org golang
+
+.link https://golang.org golang
+
+
+* Show html
+
+Custom html can be added to slides by adding the markup `.html`. 
+
+	.html file.html
+
+.html file.html
+
+* Presenter notes
+
+Lines starting with a colon denote presenter notes.
+
+	: Some presenter comment
