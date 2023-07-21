@@ -3,7 +3,7 @@
 The repository illustrates how to use the go [present](https://godoc.org/golang.org/x/tools/present) tool. To install the present tool run:
 
 ```
-go get golang.org/x/tools/cmd/present
+go install golang.org/x/tools/cmd/present@latest
 ```
 
 To run the present tool run:
